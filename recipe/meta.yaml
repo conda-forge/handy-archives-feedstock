@@ -1,5 +1,5 @@
 {% set name = "handy-archives" %}
-{% set version = "0.1.3" %}
+{% set version = "0.1.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/handy-archives-{{ version }}.tar.gz
-  sha256: 320280f17dd90501e8297f1b5dfc61447e92efa47590b23d71ba67c62db2db42
+  sha256: c951e9a3370ce678591c797457240dbf86b77923f8c8a61a60bdb7f6c52c9110
 
 build:
   noarch: python
